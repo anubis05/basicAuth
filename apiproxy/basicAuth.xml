@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="2" name="basicAuth">
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1471534794330</CreatedAt>
+    <CreatedBy>sarthak@apigee.com</CreatedBy>
+    <Description></Description>
+    <DisplayName>basicAuth</DisplayName>
+    <LastModifiedAt>1471535125534</LastModifiedAt>
+    <LastModifiedBy>sarthak@apigee.com</LastModifiedBy>
+    <Policies>
+        <Policy>Basic-Authentication</Policy>
+        <Policy>Raise-Fault</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <TargetServers/>
+    <TargetEndpoints/>
+    <validate>false</validate>
+</APIProxy>
